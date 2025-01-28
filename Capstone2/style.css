@@ -1,0 +1,74 @@
+#intro {
+  background-color: #e5d0ac;
+}
+#content {
+  background-color: #fef9e1;
+}
+
+* {
+  color: #6d2323;
+}
+
+/* Hobbies Only */
+#hobbies_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gym {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+#gym_gif {
+  padding: 30px;
+}
+
+#coding {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+#coding_gif {
+  padding: 30px;
+  width: 35%;
+}
+
+#end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #e5d0ac;
+}
+
+#instagram-link {
+  text-decoration: none;
+  color: #a31d1d;
+}
+
+#footer {
+  background-color: #6D2323;
+}
+.item {
+  color: white !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  #gym {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #coding {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #coding_gif {
+    width: 100%;
+  }
+}
